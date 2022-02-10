@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		42588606958D7FD261CBB8BD /* Pods_Flixter_FlixterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E22E35954DC2B11F72E0A9 /* Pods_Flixter_FlixterUITests.framework */; };
+		A49C34A727B2E529001FD1F0 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C34A627B2E529001FD1F0 /* MovieDetailsViewController.swift */; };
+		A49C34A927B38A93001FD1F0 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C34A827B38A93001FD1F0 /* MovieGridViewController.swift */; };
+		A49C34AB27B4AFD8001FD1F0 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C34AA27B4AFD8001FD1F0 /* MovieGridCell.swift */; };
 		A4B4F48427AB18A2000CDEDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B4F48327AB18A2000CDEDD /* AppDelegate.swift */; };
 		A4B4F48627AB18A2000CDEDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B4F48527AB18A2000CDEDD /* SceneDelegate.swift */; };
 		A4B4F48827AB18A2000CDEDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B4F48727AB18A2000CDEDD /* ViewController.swift */; };
@@ -47,6 +50,9 @@
 		6D7705CD05037604A81FA91E /* Pods-Flixter-FlixterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixter-FlixterUITests.release.xcconfig"; path = "Target Support Files/Pods-Flixter-FlixterUITests/Pods-Flixter-FlixterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		97E22E35954DC2B11F72E0A9 /* Pods_Flixter_FlixterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flixter_FlixterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23F7556DB4163AB3CCCD03A /* Pods-FlixterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixterTests.debug.xcconfig"; path = "Target Support Files/Pods-FlixterTests/Pods-FlixterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A49C34A627B2E529001FD1F0 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		A49C34A827B38A93001FD1F0 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		A49C34AA27B4AFD8001FD1F0 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		A4B4F48027AB18A2000CDEDD /* Flixter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B4F48327AB18A2000CDEDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4B4F48527AB18A2000CDEDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +135,9 @@
 				A4B4F48E27AB18AA000CDEDD /* LaunchScreen.storyboard */,
 				A4B4F49127AB18AA000CDEDD /* Info.plist */,
 				A4B4F4B327AB3213000CDEDD /* MovieCell.swift */,
+				A49C34A627B2E529001FD1F0 /* MovieDetailsViewController.swift */,
+				A49C34A827B38A93001FD1F0 /* MovieGridViewController.swift */,
+				A49C34AA27B4AFD8001FD1F0 /* MovieGridCell.swift */,
 			);
 			path = Flixter;
 			sourceTree = "<group>";
@@ -160,7 +169,6 @@
 				A23F7556DB4163AB3CCCD03A /* Pods-FlixterTests.debug.xcconfig */,
 				EC40B9BBF13F92F8E643E1E1 /* Pods-FlixterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -415,6 +423,9 @@
 			files = (
 				A4B4F48827AB18A2000CDEDD /* ViewController.swift in Sources */,
 				A4B4F4B627AB7AB3000CDEDD /* MovieViewController.swift in Sources */,
+				A49C34A727B2E529001FD1F0 /* MovieDetailsViewController.swift in Sources */,
+				A49C34A927B38A93001FD1F0 /* MovieGridViewController.swift in Sources */,
+				A49C34AB27B4AFD8001FD1F0 /* MovieGridCell.swift in Sources */,
 				A4B4F48427AB18A2000CDEDD /* AppDelegate.swift in Sources */,
 				A4B4F4B427AB3213000CDEDD /* MovieCell.swift in Sources */,
 				A4B4F48627AB18A2000CDEDD /* SceneDelegate.swift in Sources */,
